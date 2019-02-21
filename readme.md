@@ -17,3 +17,4 @@
   * 设置“通过 USB 共享网络”，使手机可访问电脑
 * 调试
   * vscode：“apicloud:启动wifi服务” -> “apicloud:wifi全量更新”
+  * 在手机的 “APPLoader” 应用中输入 IP 和端口。
