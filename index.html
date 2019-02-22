@@ -6,7 +6,7 @@
     <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
     <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
     <title>Hello APP</title>
-    <link rel="stylesheet" type="text/css" href="./css/api.css" />
+    <link rel="stylesheet" type="text/css" href="pages/common/assets/libs/apicloud/api.css" />
     <style type="text/css">
         html,
         body {
@@ -46,13 +46,13 @@
 </head>
 
 <body class="wrap">
-    <header>APICloud</header>
+    <header>APICloud - 吴钦飞 - 娃哈哈123</header>
     <section class="flex-1">
 
     </section>
     <footer>Copyright &copy;<span id="year"></span></footer>
 </body>
-<script type="text/javascript" src="./script/api.js"></script>
+<script type="text/javascript" src="pages/common/assets/libs/apicloud/api.js"></script>
 <script type="text/javascript">
     apiready = function() {
         //输出Log，Log将显示在APICloud Studio控制台
@@ -67,10 +67,22 @@
         var headerH = $api.fixStatusBar(header);
         // 最新api.js为了适配iPhoneX增加的方法，修复底部Footer部分与iPhoneX的底部虚拟横条键重叠的问题；
         var footerH = $api.fixTabBar(footer);
-
+/*
         api.openFrame({
             name: 'main',
             url: 'html/main.html',
+            bounces: true,
+            rect: { // 推荐使用Margin布局，用于适配屏幕的动态变化
+                marginTop: headerH, // main页面距离win顶部的高度
+                marginBottom: footerH, // main页面距离win底部的高度
+                w: 'auto' // main页面的宽度 自适应屏幕宽度
+            }
+        });
+*/
+
+        api.openFrame({
+            name: 'fs',
+            url: 'pages/fs/fs.html',
             bounces: true,
             rect: { // 推荐使用Margin布局，用于适配屏幕的动态变化
                 marginTop: headerH, // main页面距离win顶部的高度
