@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACJ,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,IAAI;;AAGjB,EAAG;EACD,aAAa,EAAE,IAAI;;AAGrB,KAAM;EACJ,MAAM,EAAE,QAAQ;EAChB,OAAO,EAAE,GAAG;EACZ,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,UAAU",
+"sources": ["fs.scss"],
+"names": [],
+"file": "fs.css"
+}

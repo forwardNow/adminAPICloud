@@ -1,0 +1,25 @@
+{
+  "name": "adminAPICloud",
+  "version": "1.0.0",
+  "description": "此文章的目的是介绍如何使用 APICloud 来开发 App。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forwardNow/adminAPICloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forwardNow/adminAPICloud/issues"
+  },
+  "homepage": "https://github.com/forwardNow/adminAPICloud#readme",
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3333",
+    "watch": "^1.0.2"
+  }
+}
